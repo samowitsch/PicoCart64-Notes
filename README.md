@@ -11,6 +11,7 @@ The [PicoCart64](https://github.com/kbeckmann/PicoCart64) simulates a PAL or NTS
 ## Links
 
 * [Github: PicoCart64 Project by Konrad Beckmann](https://github.com/kbeckmann/PicoCart64)
+* [PicoCart64 on Discord](https://discord.gg/CGTjxkVr7P)
 * [Hack64 - N64 ROM Swapper: .n64/.v64 to .z64](https://hack64.net/tools/swapper.php)
 * [PicoCart64 UF2 ROM Builder with flash instructions](https://kbeckmann.github.io/PicoCart64/)
 * [N64 Games by cartridge size on www.nintendo64ever.com](https://www.nintendo64ever.com/Nintendo-64-32-Mb-Cartridge-Games.html)
@@ -28,10 +29,14 @@ A detailed description is available [PicoCart64 UF2 ROM Builder](https://kbeckma
 
 ### PicoCart64 by YueCheng
 
+> Can be purchased on Aliexpress. Could not find any source (e.g. homepage, documentation, schematics, pcb layout) about this board.
+
 ![images/picocart64-yue-cheng/picocart64-yue-cheng-top.avif](images/picocart64-yue-cheng/picocart64-yue-cheng-top.avif)
 ![images/picocart64-yue-cheng/picocart64-yue-cheng-bottom.avif](images/picocart64-yue-cheng/picocart64-yue-cheng-bottom.avif)
 
 ### PicoCart64 the pragmatic way by [XGAMES VIDEOJUEGOS](https://www.youtube.com/@DAVIDXGAMESmx)
+
+> This one uses a original game rom pcb to solder a pico to it.
 
 ![images/picocart64-on-plain-game-pcb/DIAGRAMA-PICO-ORIGINAL.png](images/picocart64-on-plain-game-pcb/DIAGRAMA-PICO-ORIGINAL.png)
 ![images/picocart64-on-plain-game-pcb/picocart64-diagrama.png](images/picocart64-on-plain-game-pcb/picocart64-diagrama.png)
