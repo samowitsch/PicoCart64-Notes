@@ -2,9 +2,11 @@
 
 Some collected information about [PicoCart64](https://github.com/kbeckmann/PicoCart64) (Nintendo 64 flash cart using a Raspberry Pi Pico / RP2040).
 
+> **ℹ️** I am quite new to this project. Feel free to contribute and gather information here 😉
+
 ## Short introduction
 
-The [PicoCart64](https://github.com/kbeckmann/PicoCart64) simulates a PAL or NTSC N64 game cartridge and can hold one game or homebrew up to 16 MB regarding to flash chip size of used Pico board. The original RPI Pico RP2040 has 2MB of flash memory. Other variants can have 4 or 16MB of flash memory.
+The [PicoCart64](https://github.com/kbeckmann/PicoCart64) simulates a PAL or NTSC N64 game cartridge and can hold one game or homebrew up to 16 MB regarding to flash chip size of used Pico board. The original RPI Pico RP2040 has 2MB of flash memory. Other variants can have 4, 8(?) or 16MB of flash memory.
 
 ## Links
 
