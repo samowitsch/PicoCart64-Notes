@@ -2,13 +2,22 @@
 
 Some collected information about [PicoCart64](https://github.com/kbeckmann/PicoCart64) (Nintendo 64 flash cart using a Raspberry Pi Pico / RP2040).
 
+## Short introduction
+
+The [PicoCart64](https://github.com/kbeckmann/PicoCart64) simulates a PAL or NTSC N64 game cartridge and can hold one game or homebrew up to 16 MB regarding to flash chip size of used Pico board. The original RPI Pico RP2040 has 2MB of flash memory. Other variants can have 4 or 16MB of flash memory.
+
 ## Links
 
 * [Github: PicoCart64 Project by Konrad Beckmann](https://github.com/kbeckmann/PicoCart64)
 * [Hack64 - N64 ROM Swapper: .n64/.v64 to .z64](https://hack64.net/tools/swapper.php)
-* [PicoCart64 UF2 ROM Builder](https://kbeckmann.github.io/PicoCart64/)
+* [PicoCart64 UF2 ROM Builder with flash instructions](https://kbeckmann.github.io/PicoCart64/)
+* [N64 Games by cartridge size on www.nintendo64ever.com](https://www.nintendo64ever.com/Nintendo-64-32-Mb-Cartridge-Games.html)
 
-## Variants
+## How to flash the PicoCart64
+
+A detailed description is available [PicoCart64 UF2 ROM Builder](https://kbeckmann.github.io/PicoCart64/) site. There is a step by step instruction what is to do.
+
+## PicoCart64 variants
 
 ### PicoCart64 lite by Konrad Beckmann
 
@@ -39,21 +48,25 @@ Some collected information about [PicoCart64](https://github.com/kbeckmann/PicoC
 
 ![pinout/bitfunx-pinout.png](pinout/bitfunx-pinout.png)
 
-## Workarounds/Troubleshooting for problems
+## Workarounds/Troubleshooting PicoCart64 lite
+
+First of all solder the [PicoCart64 lite](https://github.com/kbeckmann/PicoCart64) as described [here](https://github.com/kbeckmann/PicoCart64). Flash the stuff you want or the testrom of [PicoCart64](https://github.com/kbeckmann/PicoCart64). If you get a black screen after powering on the N64, try it again with connected USB cable to check if it is a power problem.
+If the [PicoCart64 lite](https://github.com/kbeckmann/PicoCart64) is working now it must be a power related issue.
+Is the monitor still black it is maybe a pinout issue of the used Pico board.
 
 ### WeAct RP2040
 
-If WeAct on PicoCart64 lite will not work try to remove the BSS84 and solder a jumper wire to VSYS. Also the removed jumper JP1 worked for me. 
+If WeAct on PicoCart64 lite will not work try to remove the BSS84 and solder a jumper wire to VSYS (see below). Also the removed jumper JP1 worked for me.
 
-> **⚠️ Important:** the BSS84 acts like a protection(?) for the N64. If removed do not flash a game rom onto PicoCart64 lite if inserted into N64 over USB cable.
+> **⚠️ Important:** the BSS84 acts like a protection(?) for the N64 3.3v line. If removed do not flash a game rom onto PicoCart64 lite if inserted into N64 over USB cable. This can break your N64!
 
 ![images/workarounds/pico-weact-board-jumper-to-vsys.jpg](images/workarounds/pico-weact-board-jumper-to-vsys.jpg)
 
 ### Bitfunx Picoboot RP2040
 
-If Bitfunx on PicoCart64 lite will not work try to remove the BSS84 and solder a jumper wire to VBUS.
+If Bitfunx on PicoCart64 lite will not work try to remove the BSS84 and solder a jumper wire to VBUS (see below).
 
-> **⚠️ Important:** the BSS84 acts like a protection(?) for the N64. If removed do not flash a game rom onto PicoCart64 lite if inserted into N64 over USB cable.
+> **⚠️ Important:** the BSS84 acts like a protection(?) for the N64 3.3v line. If removed do not flash a game rom onto PicoCart64 lite if inserted into N64 over USB cable. This can break your N64!
 
 ![images/workarounds/pico-bitfunx-board-jumper-to-vbus.jpg](images/workarounds/pico-bitfunx-board-jumper-to-vbus.jpg)
 
