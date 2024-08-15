@@ -18,7 +18,7 @@ The [PicoCart64](https://github.com/kbeckmann/PicoCart64) simulates a PAL or NTS
 
 ## How to flash the PicoCart64
 
-A detailed description is available [PicoCart64 UF2 ROM Builder](https://kbeckmann.github.io/PicoCart64/) site. There is a step by step instruction what is to do.
+A detailed description is available on [PicoCart64 UF2 ROM Builder](https://kbeckmann.github.io/PicoCart64/) site. There is a step by step instruction what is to do.
 
 ## PicoCart64 variants
 
