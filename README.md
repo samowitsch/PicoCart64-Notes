@@ -79,8 +79,11 @@ If Bitfunx on PicoCart64 lite will not work try to remove the BSS84 and solder a
 
 ## Cartridge case
 
-> [Thingiverse: N64 Cartridge (Retrostage/ N64 Blaster)
-](https://www.thingiverse.com/thing:4462321)
+### [Thingiverse: N64 Cartridge (Retrostage/ N64 Blaster)](https://www.thingiverse.com/thing:4462321)
 
 ![/images/cartridge/IMG_5508.jpg](/images/cartridge/IMG_5508.jpg)
 ![/images/cartridge/IMG_5509.jpg](/images/cartridge/IMG_5509.jpg)
+
+### [Thingiverse: N64 cartridge shell redux](https://www.thingiverse.com/thing:5153622)
+
+![/images/cartridge/IMG_5836.JPG](/images/cartridge/IMG_5836.JPG)
