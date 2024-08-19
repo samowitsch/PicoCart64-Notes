@@ -30,6 +30,7 @@ A detailed description is available on [PicoCart64 UF2 ROM Builder](https://kbec
 ### PicoCart64 by YueCheng
 
 > Can be purchased on Aliexpress. Could not find any source (e.g. homepage, documentation, schematics, pcb layout) about this board.
+> **Important:** Apparently non-functioning boards are being sold. A non-pin compatible Picoboard is may be the reason.
 
 ![images/picocart64-yue-cheng/picocart64-yue-cheng-top.avif](images/picocart64-yue-cheng/picocart64-yue-cheng-top.avif)
 ![images/picocart64-yue-cheng/picocart64-yue-cheng-bottom.avif](images/picocart64-yue-cheng/picocart64-yue-cheng-bottom.avif)
@@ -40,6 +41,20 @@ A detailed description is available on [PicoCart64 UF2 ROM Builder](https://kbec
 
 ![images/picocart64-on-plain-game-pcb/DIAGRAMA-PICO-ORIGINAL.png](images/picocart64-on-plain-game-pcb/DIAGRAMA-PICO-ORIGINAL.png)
 ![images/picocart64-on-plain-game-pcb/picocart64-diagrama.png](images/picocart64-on-plain-game-pcb/picocart64-diagrama.png)
+
+## PicoCart64 forks
+
+### [N64cart - N64 flash cartridge](https://github.com/pdaxrom/N64cart)
+
+![images/picocart64-pdaxrom-n64cart/pdaxrom-N64cart-v3-top.jpg](images/picocart64-pdaxrom-n64cart/pdaxrom-N64cart-v3-top.jpg)
+![images/picocart64-pdaxrom-n64cart/pdaxrom-N64cart-v3-bottom.jpg](images/picocart64-pdaxrom-n64cart/pdaxrom-N64cart-v3-bottom.jpg)
+
+## PicoCart64 alternatives
+
+### [SummerCart64 - a fully open source N64 flashcart](https://github.com/Polprzewodnikowy/SummerCart64)
+
+![images/summercart64/sc64_pcb_front.jpg](images/summercart64/sc64_pcb_front.jpg)
+![images/summercart64/sc64_pcb_back.jpg](images/summercart64/sc64_pcb_back.jpg)
 
 ## Pico board pinouts
 
@@ -81,9 +96,13 @@ If Bitfunx on PicoCart64 lite will not work try to remove the BSS84 and solder a
 
 ### [Thingiverse: N64 Cartridge (Retrostage/ N64 Blaster)](https://www.thingiverse.com/thing:4462321)
 
+> Seems to be a little bit too thick (printed on my printer) but can be inserted into the N64. 
+
 ![/images/cartridge/IMG_5508.jpg](/images/cartridge/IMG_5508.jpg)
 ![/images/cartridge/IMG_5509.jpg](/images/cartridge/IMG_5509.jpg)
 
 ### [Thingiverse: N64 cartridge shell redux](https://www.thingiverse.com/thing:5153622)
+
+> Fits perfect.
 
 ![/images/cartridge/IMG_5836.JPG](/images/cartridge/IMG_5836.JPG)
