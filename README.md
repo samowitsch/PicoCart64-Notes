@@ -70,6 +70,10 @@ A detailed description is available on [PicoCart64 UF2 ROM Builder](https://kbec
 
 ![pinout/bitfunx-pinout.png](pinout/bitfunx-pinout.png)
 
+### RP2040-YD
+
+![pinout/rp2040-yd_pinout_zl.jpg](pinout/rp2040-yd_pinout_zl.jpg)
+
 ## Workarounds/Troubleshooting PicoCart64 lite
 
 First of all solder the [PicoCart64 lite](https://github.com/kbeckmann/PicoCart64) as described [here](https://github.com/kbeckmann/PicoCart64). Flash the stuff you want or the testrom of [PicoCart64](https://github.com/kbeckmann/PicoCart64). If you get a black screen after powering on the N64, try it again with connected USB cable to check if it is a power problem.
